@@ -1,5 +1,5 @@
 nav {
-    border-bottom: 1% flex #eee;
+    border-bottom: 1% solid #eee;
     display: flex;
     justify-content: flex-end;
   }
@@ -40,19 +40,21 @@ nav {
   span {
     display: none;
   }
-    @media(max-width: 480px) {
-      div {
-          flex-direction: column;
-      }
-      section {
-          width: 100%;   
-          min-width: auto;        
-      }
-      
-    li {
-      margin-bottom: 2rem;
+  
+  @media (max-width: 100%) {
+    ul {
+      display: none;
+      flex-direction: column;
       width: 100%;
-      border-bottom: 2px dashed #eee;
+      align-items: flex-start;
+      padding-left: 0.5rem;
+      margin-block-end: 0;
+    }
+  
+    li {
+      margin-bottom: 1rem;
+      width: 100%;
+      border-bottom: 0,5% dashed #eee;
     }
   
     li:last-child {
@@ -60,7 +62,7 @@ nav {
     }
   
     span {
-      display: flex;
+      display: block;
     }
   }
 * {
@@ -78,14 +80,14 @@ img{
 }
 
 .info {
-    width: 60%;
-    padding: 5%;
+    width: 50%;
+    padding: 40%;
     text-align: center;
-    border-right: 5% flex #ccc;
+    border-right: 1px solid #ccc;
 }
 
 .info img {
-    border: 50%;
+    border: 70%;
 }
 
 img{
@@ -94,10 +96,10 @@ img{
 
 .curriculo {
     width: 50%;
-    padding: 5%;
+    padding: 10%;
 }
 
 .curriculo {
     width: 50%;
-    padding: 5%;
+    padding: 10%;
 }
