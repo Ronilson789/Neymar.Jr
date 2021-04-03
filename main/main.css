@@ -8,14 +8,14 @@ div {
 }
 
 img{
-    max-width: 50%;
+    max-width: 1000%;
 
 }
 
 section {
     min-height: 600%;
    width: 100%;
-   padding: 1%; 
+   padding: 5%; 
 
 }
 
@@ -43,11 +43,11 @@ section {
 }
 footer{
     background-color:chartreuse;
-    padding: 0,000000001% 0;
+    padding:0%;
     text-align: right;
     color: #000;
     position: fixed;
     width: 100%;
-    bottom: 0;
-    left: 0;
+    bottom:0;
+    left: 00;
   }
