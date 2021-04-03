@@ -1,5 +1,5 @@
 nav {
-    border-bottom: 0,5% solid #eee;
+    border-bottom: 1% solid #eee;
     display: flex;
     justify-content: flex-end;
   }
@@ -16,7 +16,7 @@ nav {
   
   li {
     list-style: none;
-    margin-right: 2rem;
+    margin-right: 10%;
   }
   
   li a {
@@ -29,8 +29,8 @@ nav {
   
   .login {
     background-color:cornflowerblue;
-    padding: 0.5rem;
-    border-radius: 1%;
+    padding: 0.5%;
+    border-radius: 5%;
   }
   
   .login a {
@@ -47,14 +47,14 @@ nav {
       flex-direction: column;
       width: 100%;
       align-items: flex-start;
-      padding-left: 0.5rem;
+      padding-left: 0.5%;
       margin-block-end: 0;
     }
   
     li {
-      margin-bottom: 1rem;
+      margin-bottom: 2%;
       width: 100%;
-      border-bottom: 0,2% dashed #eee;
+      border-bottom: 1% dashed #eee;
     }
   
     li:last-child {
@@ -80,22 +80,22 @@ img{
 }
 
 .info {
-    width: 50%;
-    padding: 30%;
+    width: 40%;
+    padding: 8%;
     text-align: center;
-    border-right: 0,2% solid #ccc;
+    border-right: 1% solid #ccc;
 }
 
 .info img {
-    border: 50%;
+    border: 100%;
 }
 
 img{
-    max-width: 30%;
+    max-width: 50%;
 }
 
 .curriculo {
-    width: 50%;
+    width: 60%;
     padding: 5%;
 }
 
