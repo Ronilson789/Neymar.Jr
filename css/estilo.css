@@ -41,7 +41,7 @@ nav {
     display: none;
   }
   
-  @media (max-width: 80%) {
+  @media (max-width: 100%) {
     ul {
       display: none;
       flex-direction: column;
@@ -87,19 +87,19 @@ img{
 }
 
 .info img {
-    border: 70%;
+    border: 50%;
 }
 
 img{
-    max-width: 50%;
+    max-width: 30%;
 }
 
 .curriculo {
     width: 50%;
-    padding: 10%;
+    padding: 5%;
 }
 
 .curriculo {
     width: 50%;
-    padding: 10%;
+    padding: 5%;
 }
