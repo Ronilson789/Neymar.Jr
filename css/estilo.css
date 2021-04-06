@@ -60,6 +60,9 @@ li:hover {
   color: black;
 }
 
+img {
+  width: 50%;
+}
 
 span {
   display: none;
