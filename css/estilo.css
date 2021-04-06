@@ -1,11 +1,11 @@
 nav {
-  border-bottom: 100 solid rgb(15, 15, 14);
+  border-bottom: 1px solid #eee;
   display: flex;
   justify-content: flex-end;
 }
 
 nav a {
-  color:black;
+  color: darkmagenta;
 }
 
 ul {
@@ -16,7 +16,7 @@ ul {
 
 li {
   list-style: none;
-  margin-right: 10%;
+  margin-right: 0,5%;
 }
 
 li a {
@@ -27,99 +27,61 @@ li:hover {
   text-decoration: underline;
 }
 
-  .princ {
+.princ {
+  background-color: darkmagenta;
+  padding: 2%;
+  text-align: center;
+}
+
+.princ a {
+  color: #fff;
+}
+
+.pcr {
+  width: 100%;
+  background-color:white;
+  padding: 0.00006%;
+}
+
+.pcr a {
+  color:black;
+}
+
+
+
+li {
+  list-style: none;
+  margin-right: 15%;
+}
+
+
+span {
+  display: none;
+}
+
+@media (max-width: 100%) {
+  ul {
+    display: none;
+    flex-direction: column;
     width: 100%;
-    background-color:aqua;
-    padding: 3%;
-    text-align: center;
-  }
-  
-  .princ a {
-    color:black;
+    align-items: flex-start;
+    padding-left: 0.00006%;
+    margin-block-end: 0;
   }
 
-  .pcr {
-    width: 87%;
-    padding: 0,0000001%;
-    border-radius: 0,0001%;
-    text-align: center;
-    
-  }
-  
-  .pcr a {
-    color:black;
+  li {
+    margin-bottom: 0%;
+    width: 100%;
+    border-bottom: 0% dashed #eee;
   }
 
-
-  .pcr img {
-    border: 10%;
-}
-
-img{
-    max-width: 10%;
-}
-  
-
+  li:last-child {
+    border-bottom: none;
+  }
 
   span {
-    display: none;
+    display: block;
   }
-  
-  @media (max-width: 1%) {
-    ul {
-      display: none;
-      flex-direction: column;
-      width: 1%;
-      align-items: flex-start;
-      padding-left: 0,00002%;
-      margin-block-end: 0;
-      background-color: chartreuse;
-      
-    }
-  
-    li {
-      margin-bottom: 100%;
-      width: 100%;
-      border-bottom: 100% dashed #eee;
-    }
-  
-    li:last-child {
-      border-bottom: none;
-    }
-  
-    span {
-      display: block;
-    }
-  }
-* {
-    box-sizing: border-box;
-}
-
-
-main{
-    display: flex;
-}
-
-img{
-    max-width: 50%;
-
-}
-
-.info {
-    width: 100%;
-    padding: 100%;
-    text-align: center;
-    border-right: 100% solid #ccc;
-    
-}
-
-.info img {
-    border: 50%;
-}
-
-img{
-    max-width: 50%;
-    position: fixed;
 }
 
 
