@@ -30,7 +30,7 @@ li:hover {
   .princ {
     width: 100%;
     background-color:aqua;
-    padding: 3%;
+    padding: 1%;
     text-align: center;
   }
   
@@ -40,8 +40,7 @@ li:hover {
 
   .pcr {
     width: 87%;
-    padding: 0,0000001%;
-    border-radius: 0,0001%;
+    padding: 1%;
     text-align: center;
     
   }
