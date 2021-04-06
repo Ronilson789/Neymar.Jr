@@ -1,5 +1,5 @@
 nav {
-  border-bottom: 1% solid rgb(15, 15, 14);
+  border-bottom: 0,1% solid rgb(15, 15, 14);
   display: flex;
   justify-content: flex-end;
 }
@@ -41,7 +41,7 @@ li:hover {
 
   .pcr {
     width: 87%;
-    padding: 0,5%;
+    padding: 0,0000001%;
     border-radius: 3%;
     text-align: center;
     
