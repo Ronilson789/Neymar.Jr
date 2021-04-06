@@ -42,7 +42,7 @@ li:hover {
   .pcr {
     width: 87%;
     padding: 0,0000001%;
-    border-radius: 3%;
+    border-radius: 0,0001%;
     text-align: center;
     
   }
@@ -73,16 +73,16 @@ img{
       flex-direction: column;
       width: 100%;
       align-items: flex-start;
-      padding-left: 2%;
+      padding-left: 0,00002%;
       margin-block-end: 0;
       background-color: chartreuse;
       
     }
   
     li {
-      margin-bottom: 2%;
+      margin-bottom: 0,5%;
       width: 100%;
-      border-bottom: 1% dashed #eee;
+      border-bottom: 0,001% dashed #eee;
     }
   
     li:last-child {
