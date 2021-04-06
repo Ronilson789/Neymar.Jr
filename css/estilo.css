@@ -1,30 +1,67 @@
 nav {
-    display: flex;
-    justify-content: flex-end;
-    text-align: right;
-    background-color:chartreuse;
-    }
+  border-bottom: 1% solid rgb(15, 15, 14);
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav a {
+  color:black;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+  margin-right: 10%;
+}
+
+li a {
+  text-decoration: none;
+}
+
+li:hover {
+  text-decoration: underline;
+}
+
+  .princ {
+    width: 100%;
+    background-color:aqua;
+    padding: 3%;
+    border-radius: 3%;
+    text-align: center;
+  }
   
-  nav a {
+  .princ a {
     color:black;
+  }
 
+  .pcr {
+    width: 87%;
+    padding: 0,5%;
+    border-radius: 3%;
+    text-align: center;
+    
   }
   
-  ul {
-    display: flex;
-    justify-content: flex-end;
+  .pcr a {
+    color:black;
+  }
 
 
-  }
+  .pcr img {
+    border: 40%;
+}
+
+img{
+    max-width: 50%;
+    position: center;
+}
   
-  li {
-    list-style: none;
-    margin-right: 10%;
-  }
-  
-  li a {
-    text-decoration: none;
-  }
+
 
   span {
     display: none;
@@ -36,8 +73,9 @@ nav {
       flex-direction: column;
       width: 100%;
       align-items: flex-start;
-      padding-left: 0.5%;
+      padding-left: 2%;
       margin-block-end: 0;
+      background-color: chartreuse;
       
     }
   
@@ -65,47 +103,26 @@ main{
 }
 
 img{
-    max-width: 100%;
+    max-width: 50%;
 
 }
 
 .info {
-    width: 40%;
-    padding: 8%;
+    width: 50%;
+    padding: 10%;
     text-align: center;
     border-right: 1% solid #ccc;
     
 }
 
 .info img {
-    border: 100%;
+    border: 50%;
 }
 
 img{
-    max-width: 70%;
-    position: center;
+    max-width: 50%;
+    position: fixed;
 }
 
-.curriculo {
-    width: 60%;
-    padding: 100%;
-    text-align: right;
-  
-}
 
-.curriculo {
-    width: 60%;
-    padding: 10%;
 
-}
-
-.princ {
-  width: 100%;
-  background-color: chartreuse;
-  padding: 0.5%;
-  border-radius: 3%;
-  text-align: center;
-}
-.princ a {
-  color: black;
-}
