@@ -31,7 +31,6 @@ li:hover {
     width: 100%;
     background-color:aqua;
     padding: 3%;
-    border-radius: 3%;
     text-align: center;
   }
   
@@ -53,12 +52,11 @@ li:hover {
 
 
   .pcr img {
-    border: 40%;
+    border: 10%;
 }
 
 img{
-    max-width: 50%;
-    position: center;
+    max-width: 10%;
 }
   
 
@@ -67,11 +65,11 @@ img{
     display: none;
   }
   
-  @media (max-width: 100%) {
+  @media (max-width: 50%) {
     ul {
       display: none;
       flex-direction: column;
-      width: 100%;
+      width: 50%;
       align-items: flex-start;
       padding-left: 0,00002%;
       margin-block-end: 0;
