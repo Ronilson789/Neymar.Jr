@@ -1,5 +1,5 @@
 nav {
-    border-bottom: 1% solid #eee;
+    border-bottom: 1% solid rgb(138, 255, 21);
     display: flex;
     justify-content: flex-end;
   }
@@ -26,17 +26,44 @@ nav {
   li:hover {
     text-decoration: underline;
   }
-  
-  .login {
-    background-color:rgb(138, 255, 21);
-    padding: 0.5%;
-    border-radius: 5%;
+
+  .princ {
+    width: 100%;
+    background-color:aqua;
+    padding: 0,5%;
+    border-radius: 3%;
+    text-align: center;
   }
   
-  .login a {
+  .princ a {
     color:black;
   }
+
+  .prc {
+    width: 100%;
+    background-color:aqua;
+    padding: 0,4%;
+    border-radius: 3%;
+    text-align: center;
+  }
   
+  .prc a {
+    color:black;
+  }
+
+  .ppp {
+    width: 100%;
+    background-color:aqua;
+    padding: 0,5%;
+    border-radius: 3%;
+    text-align: center;
+  }
+  
+  .ppp a {
+    color:black;
+  }
+
+
   span {
     display: none;
   }
@@ -47,7 +74,7 @@ nav {
       flex-direction: column;
       width: 100%;
       align-items: flex-start;
-      padding-left: 0.5%;
+      padding-left: 0,5%;
       margin-block-end: 0;
       
     }
@@ -109,15 +136,4 @@ img{
     width: 60%;
     padding: 10%;
     background-color:white;
-}
-
-footer{
-  background-color:chartreuse;
-  padding: 0,00001% 0;
-  text-align: center;
-  color: #000;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
-  left: 0;
 }
