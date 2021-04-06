@@ -108,10 +108,10 @@ img{
 }
 
 .info {
-    width: 50%;
-    padding: 10%;
+    width: 13%;
+    padding: 0,0001%;
     text-align: center;
-    border-right: 1% solid #ccc;
+    border-right: 0,0001% solid #ccc;
     
 }
 
