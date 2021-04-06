@@ -1,14 +1,18 @@
 * {
     box-sizing: border-box;
+    text-align: center;
 }
 div {
    display: flex;
-   flex-direction: row;
+   flex-direction: flex;
+   text-align: center;
 
 }
 
 img{
-    max-width: 1000%;
+    max-width: 100%;
+    text-align: center;
+
 
 }
 
@@ -16,6 +20,7 @@ section {
     min-height: 600%;
    width: 100%;
    padding: 5%; 
+   text-align: center;
 
 }
 
@@ -24,30 +29,34 @@ section {
    float:left;
    margin-right: 1%;
    margin-bottom: 0.5%;
+   text-align: center;
 }
 .c {
     flex-direction: column;
     float:left;
    margin-right: 1%;
    margin-bottom: 0.5%;
+   text-align: center;
 }
 
 @media(max-width: 480px) {
    div {
        flex-direction: column;
+       text-align: center;
    }
    section {
        width: 100%;   
        min-width: auto;     
+       text-align: center;
    }    
 }
-footer{
-    background-color:chartreuse;
-    padding:0%;
-    text-align: right;
-    color: #000;
-    position: fixed;
-    width: 100%;
-    bottom:0;
-    left: 00;
+footer {
+    background-color: firebrick;
+      padding: 10px 0;
+      text-align: center;
+      color:#fff;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+      left: 0;
   }
