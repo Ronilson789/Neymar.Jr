@@ -59,11 +59,11 @@ span {
   display: none;
 }
 
-@media (max-width: 100%) {
+@media (max-width: 60%) {
   ul {
     display: none;
     flex-direction: column;
-    width: 100%;
+    width: 10%;
     align-items: flex-start;
     padding-left: 0.00006%;
     margin-block-end: 0;
@@ -71,7 +71,7 @@ span {
 
   li {
     margin-bottom: 0%;
-    width: 50%;
+    width: 0%;
     border-bottom: 0% dashed #eee;
   }
 
