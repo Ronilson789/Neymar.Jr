@@ -1,5 +1,5 @@
 nav {
-  border-bottom: 0,1% solid rgb(15, 15, 14);
+  border-bottom: 100 solid rgb(15, 15, 14);
   display: flex;
   justify-content: flex-end;
 }
@@ -79,7 +79,7 @@ img{
   
     li {
       margin-bottom: 0,5%;
-      width: 100%;
+      width: 20%;
       border-bottom: 0,001% dashed #eee;
     }
   
