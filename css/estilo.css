@@ -16,7 +16,7 @@ ul {
 
 li {
   list-style: none;
-  margin-right: 15%;
+  margin-right: 2rem;
 }
 
 li a {
@@ -27,25 +27,39 @@ li:hover {
   text-decoration: underline;
 }
 
-.princ {
-  background-color: darkmagenta;
-  padding: 2%;
+.menu {
+  background-color:chartreuse;
+  padding: 3%;
+  border-radius: 1%;
   text-align: center;
 }
 
-.princ a {
+.menu a {
+  color: #fff;
+}
+
+.ney {
+  background-color: white;
+  padding: 0.5%;
+  border-radius: 1%;
+  text-align: center;
+}
+
+.ney a {
   color:black;
 }
 
-.pcr {
-  background-color: darkmagenta;
-  padding: 3%;
-  border-radius: 20%;
+.mar {
+  background-color: white;
+  padding: 0.5%;
+  border-radius: 1%;
+  text-align: center;
 }
 
-.pcr a {
-  color: #fff;
+.mar a {
+  color: black;
 }
+
 
 span {
   display: none;
@@ -62,9 +76,9 @@ span {
   }
 
   li {
-    margin-bottom: 5%;
+    margin-bottom: 1%;
     width: 100%;
-    border-bottom: 0.3% dashed #eee;
+    border-bottom: 0,05% dashed #eee;
   }
 
   li:last-child {
@@ -75,5 +89,3 @@ span {
     display: block;
   }
 }
-
-
