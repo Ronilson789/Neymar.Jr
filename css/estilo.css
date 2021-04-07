@@ -40,7 +40,7 @@ main{
 .menu {
   width: 100%;
   background-color:chartreuse;
-  padding: 2%;
+  padding: 5%;
   border-radius: 1%;
   text-align: center;
 }
