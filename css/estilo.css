@@ -37,9 +37,25 @@ li:hover {
 .menu a {
   color: #fff;
 }
+img {
+  max-width: 21%;
+  border-radius: 0%;
+  width: 50%;
+  height: 50%;
+  margin-top: 2%;
+  margin-bottom: 0%;
+  margin-left: 41%;
+  text-align: center;
+  
+
+}
+
+.itemr {
+  margin-left: 20%;
+}
 
 .ney {
-  width: 85%;
+  width:63%;
   background-color: white;
   padding: 8%;
   border-radius: 100%;
@@ -50,17 +66,7 @@ li:hover {
   color:black;
 }
 
-img {
-  max-width: 100%;
-  border-radius: 50%;
-  width: 100%;
-  height: 100%;
-  margin-top: 25px;
-}
 
-.itemr {
-  margin-left: 7%;
-}
 
 span {
   display: none;
