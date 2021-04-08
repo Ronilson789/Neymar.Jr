@@ -6,6 +6,13 @@ div {
 
 
 }
+#meulink { color:black; }
+header, nav {
+    text-align: center;
+    background: white;
+    margin: 20px 0;
+    padding: 10px;}
+
 
 img{
     max-width: 100%;
@@ -13,7 +20,8 @@ img{
 section {
     min-height: 600%;
    width: 100%;
-   padding: 0%;  
+   padding: 0%;
+
 }
 section {
     min-height: 600%;
