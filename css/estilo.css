@@ -39,7 +39,7 @@ main{
 
 .menu {
   width: 100%;
-  background-color:rgb(83, 80, 80);
+  background-color:rgb(212, 111, 74);
   padding: 4%;
   border-radius: 1%;
   text-align: center;
@@ -110,7 +110,7 @@ span {
 }
 
 footer{
-  background-color:rgb(83, 80, 80);
+  background-color:rgb(212, 111, 74);
   padding: 2% 0;
   text-align: center;
   color: #000;
