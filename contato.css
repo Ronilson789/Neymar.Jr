@@ -13,6 +13,16 @@ nav{
     color: black;
 }
 #meulink { color:black; }
+.menu {
+    width: 100%;
+    background-color:rgb(211, 92, 155);
+    padding: 4%;
+    border-radius: 1%;
+    text-align: center;
+  }
+  
+  .menu a {
+    color:black;}
 
 div {
    display: flex;
