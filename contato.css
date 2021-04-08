@@ -1,18 +1,33 @@
 * {
     box-sizing: border-box;
+    text-align: center;
 }
+h3{
+    background-color: white;
+      padding: 1% 0;
+      text-align: center;
+
+
+}
+nav{
+    color: black;
+}
+#meulink { color:black; }
+
 div {
    display: flex;
-   flex-direction: row;
+   flex-direction:column
 }
+
 
 img{
     max-width: 40%;
+    text-align: center;
 }
 section {
-    min-height: 600px;
+
    width: 50%;
-   padding: 1%;
+   padding: 1rem;
 }
 
 .a {
@@ -21,7 +36,7 @@ section {
 .a img{
     float:left;
     margin-right: 5%;
-    margin-bottom: 0.5%;
+    margin-bottom: 0.5px;
 }
 
 .b {
@@ -30,7 +45,7 @@ section {
 .b img{
    float:left;
    margin-right: 5%;
-   margin-bottom: 0.5%;
+   margin-bottom: 0.5px;
 }
 
 .c {
@@ -44,11 +59,11 @@ section {
 
 @media(max-width: 480px) {
    div {
-       flex-direction: column;
+       flex-direction: column ;
    }
    section {
        width: 100%;   
-       min-width: auto;        
+       min-width: auto;       
    }    
 }
 footer {
