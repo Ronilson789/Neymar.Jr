@@ -39,7 +39,7 @@ main{
 
 .menu {
   width: 100%;
-  background-color:aqua;
+  background-color:white;
   padding: 4%;
   border-radius: 1%;
   text-align: center;
@@ -110,7 +110,7 @@ span {
 }
 
 footer{
-  background-color:aqua;
+  background-color: white;
   padding: 2% 0;
   text-align: center;
   color: #000;
