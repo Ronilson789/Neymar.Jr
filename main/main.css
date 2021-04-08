@@ -7,6 +7,13 @@ div {
    text-align: center;
 
 }
+#meulink { color:black; }
+header, nav {
+    text-align: center;
+    background: white;
+    margin: 20px 0;
+}
+
 
 img{
     max-width: 100%;
