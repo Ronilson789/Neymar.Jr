@@ -3,7 +3,7 @@
 }
 div {
    display: flex;
-   padding: 0px
+   padding: 0%
 
 }
 #meulink { color:black; }
@@ -66,15 +66,5 @@ section {
        min-width: auto;  
    
    }    
-}
-footer {
-    background-color: firebrick;
-      padding: 1% 0;
-      text-align: center;
-      position: fixed;
-      color:#fff;
-      width: 100%;
-      bottom: 0;
-      left: 0;
 
 }
