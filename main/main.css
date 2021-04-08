@@ -7,11 +7,23 @@ div {
    text-align: center;
 
 }
+.menu {
+    width: 100%;
+    background-color:rgb(211, 92, 155);
+    padding: 4%;
+    border-radius: 1%;
+    text-align: center;
+  }
+  
+  .menu a {
+    color:black;
+  }
 #meulink { color:black; }
 header, nav {
     text-align: center;
     background: white;
     margin: 20px 0;
+    float: left;
 }
 
 
