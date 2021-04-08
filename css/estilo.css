@@ -39,7 +39,7 @@ main{
 
 .menu {
   width: 100%;
-  background-color:rgb(212, 111, 74);
+  background-color:rgb(211, 92, 155);
   padding: 4%;
   border-radius: 1%;
   text-align: center;
@@ -49,8 +49,7 @@ main{
   color:black;
 }
 
-
-.ney {
+.pai {
   width:90%;
   background-color: white;
   padding: 5%;
@@ -58,7 +57,41 @@ main{
   text-align: center;
 }
 
-.ney a {
+.pai a {
+  color: black;
+}
+
+img {
+  max-width: 50%;
+  border-radius: 24%;
+  width: 100%;
+  height: 50%;
+  margin-top: 2%;
+  margin-bottom: 20%;
+  margin-left: 0%;
+  text-align: center;
+  
+
+}
+
+.ney {
+  margin-left: 20%;
+}
+
+span {
+  display: none;
+}
+
+
+.on {
+  width:90%;
+  background-color: white;
+  padding: 5%;
+  border-radius: 100%;
+  text-align: center;
+}
+
+.on a {
   color: black;
 }
 
@@ -76,7 +109,7 @@ img {
 
 }
 
-.itemr {
+.ney {
   margin-left: 20%;
 }
 
@@ -107,16 +140,5 @@ span {
   span {
     display: block;
   }
-}
-
-footer{
-  background-color:rgb(212, 111, 74);
-  padding: 2% 0;
-  text-align: center;
-  color: #000;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
-  left: 0;
 }
 
